@@ -1,0 +1,88 @@
+body{
+background: #14274E;;
+}
+p{
+    color: black;
+}
+.navbar{
+    background-color: #14274E;
+}
+#about{
+    background-color: #eee;
+}
+.about-message{
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+.about-message h1, h4{
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.imgContainer{
+    position: relative;
+    float: left;
+}
+.women{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#testimonial{
+    background-color: #14274E;
+    padding-top: 10%;
+}
+.row{
+    padding-left: 20%;
+    margin-bottom: 20%;
+}
+.vote{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.taxes{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+.woman{
+    position: absolute;
+    top: 60px;
+    left: -150px;
+}
+.text{
+    font-size: 36px;
+    color: white;
+}
+.text h1{
+    font-size: 56px;
+    padding-right: 40px;
+}
+
+.btn-lg{
+    background-color: wheat;
+    color: black;
+    margin-top: 10px;
+    float: right;
+    border: none;
+}
+.btn-lg:hover{
+    background-color: #6c757d;
+}
+label{
+    float: left;
+}
+.text-blxk{
+    background-color: #eee;
+}

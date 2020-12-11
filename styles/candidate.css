@@ -46,9 +46,10 @@ ul{
 .btn{
     background-color: #14274E;
     border: none;
+    margin-bottom: 20px;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: #6c757d;
 }
 #elizabeth{
     background: url('./images/green.png');

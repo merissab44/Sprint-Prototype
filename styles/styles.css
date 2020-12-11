@@ -22,6 +22,7 @@ body{
 }
 .display-4{
     padding-top: 15%;
+    color: white;
 }
 .news-img img{
     left: 0;
@@ -76,6 +77,8 @@ section{
     margin: 0;
     text-align: justify;
     margin-bottom: 10px;
+}.btn-primary:hover{
+    background-color: #6c757d;
 }
 .btn-secondary{
     background-color: #14274E;
@@ -83,7 +86,7 @@ section{
 }
 #contact{
     margin-top: 0;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     color: white;
 }
 .mb-3{
@@ -92,6 +95,9 @@ section{
 .btn-lg{
     margin-top: 10px;
     float: right;
+}
+.btn-lg:hover{
+    background-color: #6c757d;
 }
 label{
     float: left;
