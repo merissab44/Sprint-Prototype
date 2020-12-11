@@ -7,36 +7,92 @@ body{
     height: 100%;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #14274E;
+    background-color: #14274E;
 }
-
-/*--- Navigation --*/
-
 .navbar{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .9rem;
-    letter-spacing: .1rem;
-    background-color: rgba(0,0,0,0.6)!important;
+    background-color: #14274E;
 }
-.navbar-brand img{
-    height: 2rem;
-}
-.navbar-nav li{
-    padding-right: .7rem;
-}
-.navbar-dark .navbar-nav .nav-link{
-    color: white;
-    padding-top: .8rem;
-}
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-    color:  #14274E;
-}
-/*--- Landing Page --*/
-.home-inner{
-    background: url(../images/Banner.jpg);
-    background-position-x: center;
+.jumbotron{
+    height: 400px;
+    background: url(./images/voter.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.display-4{
+    padding-top: 15%;
+}
+.news-img img{
+    left: 0;
+    margin: 0;
+    height: 300px;
+}
+.news-info{
+    color: white;
+}
+.news-info h5{
+    font-size: 17px;
+    font-weight: lighter;
+}
+.news-info p{
+    width: 70%;
+    margin: 0;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: none;
+}
+#news{
+    margin-top: 20px;
+}
+section{
+    margin-bottom: 10px;
+}
+
+#news-cards{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.news-img{
+    padding: 10px;
+}
+.news-card h2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.news-card h4{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.news-card p{
+    width: 80%;
+    margin: 0;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.btn-secondary{
+    background-color: #14274E;
+    color: white;
+}
+#contact{
+    margin-top: 0;
+    margin-bottom: 20%;
+    color: white;
+}
+.mb-3{
+    width: 50%;
+}
+.btn-lg{
+    margin-top: 10px;
+    float: right;
+}
+label{
+    float: left;
 }
